@@ -12,7 +12,7 @@ public static void main(String[] args){
 public static int numtobase(int num,int base){
     int rv=0;
     int power=1;
-    while(num>0){
+    while(num>0){ //
         int rem=num%base;
         num=num/base;
         rv=rv+rem*power;
