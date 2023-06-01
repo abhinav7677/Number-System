@@ -9,7 +9,7 @@ public class q32digitsfrequency {
         int res=digitfrequency(n,f);
         System.out.println(res);
     }
-    public static int digitfrequency(int n,int f){
+    public static int digitfrequency(int n,int f){ //
         int rem=0;
         int freq=0;
         while(n>0){rem=n%10; 
