@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class q32digitsfrequency {
-    public static void main(String[] java){
+    public static void main(String[] java){ //
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter Your Number");
         int n=sc.nextInt();
