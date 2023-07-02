@@ -4,7 +4,7 @@ public class q32digitsfrequency {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter Your Number");
         int n=sc.nextInt();
-        System.out.println("Enter Your Number whose frequency needs to be checked");
+        System.out.println("Enter Your Number whose frequency needs to be checked."); 
         int f=sc.nextInt();
         int res=digitfrequency(n,f);
         System.out.println(res);
